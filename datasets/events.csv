@@ -1,0 +1,11 @@
+event_id,category,model_prob,market_odds,result
+1,NBA,0.58,-110,1
+2,NFL,0.54,-105,0
+3,Soccer,0.62,-120,1
+4,NBA,0.57,-110,0
+5,NFL,0.60,-115,1
+6,Soccer,0.55,-108,0
+7,NBA,0.59,-110,1
+8,NFL,0.56,-102,1
+9,Soccer,0.61,-118,1
+10,NBA,0.53,-110,0

@@ -1,0 +1,6 @@
+# config.py
+# settings.py
+
+INITIAL_BANKROLL = 10000
+EDGE_THRESHOLD = 0.02
+HALF_KELLY = 0.5
