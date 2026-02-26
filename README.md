@@ -2,17 +2,26 @@ Quant Risk Engine
 A Quantitative Risk Management & Capital Allocation System
 
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python" alt="Python Version"> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"> <img src="https://img.shields.io/badge/Status-Concept%20%2F%20Live-blueviolet?style=for-the-badge" alt="Status"> </p>
+
 Quant Risk Engine
 A Quantitative Risk Management & Capital Allocation System
-Overview
+📌 Overview
 
 Quant Risk Engine is a quantitative simulation framework designed to evaluate decision-making under uncertainty.
 
 The system compares probabilistic forecasts against market prices, calculates statistical edge, applies Kelly-based capital allocation, and simulates long-term bankroll growth while measuring risk exposure.
 
-Although demonstrated using sports market data, the architecture is generalizable to financial trading, portfolio allocation, and information systems risk management applications.
+Although demonstrated using sports market data, the architecture is fully generalizable to:
 
-Core Objective
+Financial trading strategies
+
+Portfolio allocation models
+
+Risk analytics systems
+
+Information systems risk management applications
+
+🎯 Core Objective
 
 To model how capital should be allocated when:
 
@@ -26,11 +35,11 @@ Long-term growth must be optimized
 
 This project focuses on risk-adjusted decision systems, not prediction itself.
 
-System Architecture
+🏗 System Architecture
 
-The engine operates in four stages:
+The engine operates in four major stages:
 
-Probability Input Layer
+1️⃣ Probability Input Layer
 
 Model probability (model_prob)
 
@@ -38,21 +47,21 @@ Market odds (market_odds)
 
 Historical outcome (result)
 
-Edge Detection
+2️⃣ Edge Detection
 
 Convert odds to implied probability
 
 Compute statistical edge
 
-Capital Allocation
+3️⃣ Capital Allocation
 
 Apply Fractional Kelly Criterion
 
-Adjust for risk appetite via Kelly multiplier
+Adjust risk appetite via Kelly multiplier
 
 Filter trades using edge threshold
 
-Performance & Risk Analytics
+4️⃣ Performance & Risk Analytics
 
 Final bankroll
 
@@ -66,7 +75,7 @@ Maximum drawdown
 
 Equity curve
 
-Risk Management Principles Implemented
+📊 Risk Management Principles Implemented
 
 This project directly applies quantitative risk management concepts:
 
@@ -82,9 +91,9 @@ Volatility-Adjusted Performance (Sharpe Ratio)
 
 Risk Appetite Adjustment (Fractional Kelly)
 
-Relevance to Information Systems Risk Management (ISS2202)
+🎓 Relevance to Information Systems Risk Management (ISS2202)
 
-This system demonstrates applied risk management within an information system context:
+This system demonstrates applied risk management within an information systems context:
 
 Structured data processing for risk evaluation
 
@@ -98,9 +107,9 @@ Loss containment via drawdown control
 
 Decision-support system design
 
-Rather than qualitative “High/Medium/Low” risk assessment, this project implements measurable probabilistic risk evaluation.
+Rather than qualitative “High / Medium / Low” risk assessment, this project implements measurable probabilistic risk evaluation.
 
-Practical Applications
+💼 Practical Applications
 
 The framework can be adapted to:
 
@@ -116,7 +125,7 @@ Capital growth optimization problems
 
 Financial risk simulation environments
 
-Technologies Used
+🛠 Technologies Used
 
 Python
 
@@ -128,9 +137,9 @@ Streamlit
 
 Quantitative finance mathematics
 
-What This Project Demonstrates
+🚀 What This Project Demonstrates
 
-Understanding of probabilistic modeling
+Probabilistic modeling
 
 Capital allocation theory
 
@@ -142,7 +151,7 @@ Applied quantitative risk management
 
 Decision-support system design
 
-Future Enhancements
+🔮 Future Enhancements
 
 Monte Carlo simulation
 
@@ -154,6 +163,7 @@ Parameter optimization layer
 
 Multi-strategy portfolio simulation
 
-Author
+👤 Author
 
-Developed as a quantitative risk modeling and decision-support system.
+Blessing Kanengoni
+H. Information Security and Assurance
